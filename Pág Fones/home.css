@@ -1,0 +1,219 @@
+          /*base do site*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+        45deg,
+        hsl(176deg 70% 65%) 0%,
+        hsl(179deg 62% 68%) 9%,
+        hsl(183deg 56% 71%) 18%,
+        hsl(189deg 52% 74%) 27%,
+        hsl(197deg 48% 77%) 36%,
+        hsl(209deg 44% 79%) 45%,
+        hsl(219deg 37% 82%) 55%,
+        hsl(223deg 26% 84%) 64%,
+        hsl(238deg 11% 87%) 73%,
+        hsl(4deg 10% 89%) 82%,
+        hsl(27deg 43% 92%) 91%,
+        hsl(31deg 100% 94%) 100%);
+    }
+
+/* CABEÇALHO */
+header{  
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 20px 0;
+    height: 200px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+    /* Logo - icon */
+.logo{
+    height: 50px;
+    width: 50%;
+    text-align: left;
+    font-size: 32px;
+}
+
+        /*Menu*/
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    letter-spacing: .05em;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #152c18;
+}
+        /*Menu*/
+        /* CABEÇALHO */
+.img{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    width: 500px;
+    transition: .5s;
+    pointer-events: none;
+}
+h1{
+    font-size: 75px;
+    font-weight: 400;
+    padding-bottom:15px ;
+}
+.texto-sobre a{
+    margin-top: 10px;
+    background: #ffffff85;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: .5s;
+} 
+.texto-sobre a:hover{
+    letter-spacing: .1em;
+    font-weight: 900;
+    background: #ffffffe3;
+    color: #020202;
+}  
+       /* CABEÇALHO */
+.img1{
+    position: absolute;
+    top: 800px;
+    left: 800px;
+    width: 350px;
+    transition: .5s;
+    pointer-events: none;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.h3 span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom:15px ;
+}
+.cards h4{
+    font-size: 20px;
+    font-weight: 800;
+    text-align:center;
+}
+
+.cards p{
+    font-size: 15px;
+    font-weight: 500;
+    text-align:center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-gap: 40px;
+    padding-bottom: 400px;
+}
+.card{
+    background-color: #ffffffe3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    border-radius: 15px;
+    box-shadow:  0 0 10px 1px rgba(0, 0, 0, 0.35);
+    transition: 0.5s;
+}
+.card:hover{
+    letter-spacing: .1em;
+    background-color: #ffffff81;
+    box-shadow:  0 0 10px 1px rgba(26, 71, 68, 0.527);
+}
+.titulo{
+    font-size: 35px;
+    font-weight: 700;
+    text-align:center;
+    padding-bottom: 25px;
+}
+.img2{
+    position: absolute;
+    top: 2200px;
+    left: 650px;
+    width: 400px;
+    transition: .5s;
+    pointer-events: none;
+}
+
+.centere{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.cente{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 10%;
+}
+
+.texto a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.texto a:hover{
+    letter-spacing: .1em;
+    text-decoration: underline;
+}
+
